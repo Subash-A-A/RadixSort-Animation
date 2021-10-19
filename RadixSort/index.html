@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      defer
+    ></script>
+    <script src="./js/app.js" defer></script>
+    <title>RadixSort</title>
+  </head>
+  <body>
+    <div class="radix">
+      <div class="numbers">
+        <h1 class="nums">12</h1>
+        <h1 class="nums">125</h1>
+        <h1 class="nums">56</h1>
+        <h1 class="nums">4</h1>
+        <h1 class="nums">123</h1>
+        <h1 class="nums">43</h1>
+        <h1 class="nums">11</h1>
+        <h1 class="nums">89</h1>
+        <h1 class="nums">58</h1>
+        <h1 class="nums">8</h1>
+        <h1 class="nums">17</h1>
+        <h1 class="nums">100</h1>
+        <h1 class="nums">42</h1>
+      </div>
+      <div class="container">
+        <!-- 0 -->
+        <div class="bucket easein">
+          <h1 class="rise b100">100</h1>
+        </div>
+        <!-- 1 -->
+        <div class="bucket easein">
+          <h1 class="rise b11">11</h1>
+        </div>
+        <!-- 2 -->
+        <div class="bucket easein">
+          <h1 class="rise b12">12</h1>
+          <h1 class="rise b42">42</h1>
+        </div>
+        <!-- 3 -->
+        <div class="bucket easein">
+          <h1 class="rise b123">123</h1>
+          <h1 class="rise b43">43</h1>
+        </div>
+        <!-- 4 -->
+        <div class="bucket easein">
+          <h1 class="rise b4">4</h1>
+        </div>
+        <!-- 5 -->
+        <div class="bucket easein">
+          <h1 class="rise b125">125</h1>
+        </div>
+        <!-- 6 -->
+        <div class="bucket easein">
+          <h1 class="rise b56">56</h1>
+        </div>
+        <!-- 7 -->
+        <div class="bucket easein">
+          <h1 class="rise b17">17</h1>
+        </div>
+        <!-- 8 -->
+        <div class="bucket easein">
+          <h1 class="rise b58">58</h1>
+          <h1 class="rise b8">8</h1>
+        </div>
+        <!-- 9 -->
+        <div class="bucket easein">
+          <h1 class="rise b89">89</h1>
+        </div>
+      </div>
+      <div class="numbers">
+        <h1 class="nums n100">100</h1>
+        <h1 class="nums n11">11</h1>
+        <h1 class="nums n12">12</h1>
+        <h1 class="nums n42">42</h1>
+        <h1 class="nums n123">123</h1>
+        <h1 class="nums n43">43</h1>
+        <h1 class="nums n4">4</h1>
+        <h1 class="nums n125">125</h1>
+        <h1 class="nums n56">56</h1>
+        <h1 class="nums n17">17</h1>
+        <h1 class="nums n58">58</h1>
+        <h1 class="nums n8">8</h1>
+        <h1 class="nums n89">89</h1>
+      </div>
+      <div class="buttons">
+        <a href="./index.html"
+          ><img src="./svgs/skip_previous_white_24dp.svg" class="btn1"
+        /></a>
+        <div class="controls">
+          <img src="./svgs/fast_rewind_white_24dp.svg" class="btn1 reverseff" />
+          <img src="./svgs/pause_white_24dp.svg" class="btn1 pause" />
+          <img src="./svgs/play_arrow_white_24dp.svg" class="btn1 play" />
+          <img src="./svgs/fast_forward_white_24dp.svg" class="btn1 playff" />
+        </div>
+        <a href="./index1.html"
+          ><img src="./svgs/skip_next_white_24dp.svg" class="btn1"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: monospace;
-  color: rgb(250, 91, 91);
+  color: rgb(255, 66, 66);
 }
 body {
   overflow: hidden;
@@ -42,7 +42,12 @@ body {
   cursor: pointer;
   border: none;
 }
-
+.para {
+  text-align: center;
+}
+.ptext {
+  font-size: 16px;
+}
 .bucket {
   transition: 0.2s;
   display: flex;
@@ -90,11 +95,11 @@ body {
 }
 .bucket:hover {
   transition: 0.2s;
-  border-color: blue;
+  border-color: lime;
   border-width: 10px;
 }
 .bigBucket:hover {
   transition: 0.2s;
-  border-color: blue;
+  border-color: lime;
   border-width: 10px;
 }

@@ -37,7 +37,7 @@ timeline
     .from('.n123', {opacity: 0})
     .to('.b125', {opacity: 0})
     .from('.n125', {opacity: 0})
-    
+    .from('.final-easein', {opacity: 0, y: '-100%', ease: 'bounce', stagger:0.5})
     // 
 
 // Action Listeners 
